@@ -1,24 +1,31 @@
-# Docs in Motion
+# Archive Recovery Audit
 
-This repository contains a small public Quarto website with three documentation articles on practical writing, maintainable information design, and static site publishing.
+This repository documents a realistic archive audit workflow for recovering a legacy website from a screenshot archive. The project focuses on evidence, structure, text recovery, and remediation planning rather than rebuilding the original site.
 
-## Live directory page
+## Project purpose
 
-- [Docs in Motion website](https://sandypandas.github.io/quarto-docs-website/)
+The archive represents a public website that is no longer directly available. The goal is to determine:
 
-## Quarto
+- what was on the site,
+- how it was structured,
+- how trustworthy the recovered content is,
+- and what should happen next for a future rebuild.
 
-- [Quarto official website](https://quarto.org/)
-
-## Project structure
+## Repository structure
 
 - `_quarto.yml` — Quarto site configuration
-- `index.qmd` — home page with decorative header image
-- `docs/articles/article-1.qmd` — article on planning documentation
-- `docs/articles/article-2.qmd` — article on writing clear technical content
-- `docs/articles/article-3.qmd` — article on Quarto publishing
-- `styles.css` — site styling
-- `images/` — article and home page illustration assets
+- `index.qmd` — archive audit landing page
+- `docs/audit/memo.qmd` — recovery memo and recommendations
+- `docs/audit/sitemap.qmd` — reconstructed site architecture
+- `docs/audit/inventory.qmd` — content inventory summary
+- `docs/audit/recovery-workflow.qmd` — Tesseract and verification process
+- `data/archive_inventory.db` — authoritative SQLite inventory
+- `data/archive_inventory.csv` — CSV export of the inventory
+- `data/site-sitemap.mmd` — Mermaid source for the sitemap
+- `images/site-sitemap.png` — rendered sitemap image
+- `data/archive/recovered_text/` — example OCR and verified text samples
+- `data/ocr_error_log.csv` — documentation of OCR problems
+- `scripts/` — database and diagram generation scripts
 
 ## Local preview
 
@@ -27,6 +34,13 @@ quarto render
 quarto preview
 ```
 
-## GitHub Pages deployment
+## Methodology
 
-This project uses a GitHub Actions workflow to render and deploy the site to GitHub Pages from the repository.
+The workflow uses a defensible audit sample from an archive of screenshots and reconstructs a site map before analyzing textual recovery. Text recovery is treated as a first-pass approximation and must be manually verified, especially on pages involving contact information, dates, and program details.
+
+## Tools
+
+- Quarto for the publishing site
+- SQLite for the authoritative content inventory
+- Tesseract for OCR-based text recovery
+- CSV and text logs for audit evidence and comparison

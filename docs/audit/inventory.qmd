@@ -1,0 +1,48 @@
+---
+title: "Content Inventory"
+---
+
+## Database and CSV record
+
+The authoritative audit record is stored in SQLite and exported as CSV for portable inspection. The inventory combines the observed archive hierarchy with a detailed sample of the `board-agenda` folder. It records only metadata directly visible in Drive and content visible in the two screenshot previews reviewed so far.
+
+- SQLite: [../../data/archive_inventory.db](../../data/archive_inventory.db)
+- CSV export: [../../data/archive_inventory.csv](../../data/archive_inventory.csv)
+
+## Inventory fields
+
+The schema was designed to document what can be observed from the archive while preserving room for future page-level expansion. It includes:
+
+- record ID
+- archive group
+- page title
+- folder path
+- content type
+- source type
+- recovery status
+- observed structure
+- notes
+
+## Detailed sample: board agendas
+
+The `board-agenda` folder contains ten PNG screenshots, `board-agenda-14.png` through `board-agenda-23.png`, each shown in Drive as modified 16 October 2023. Previews of the first two screenshots show the Village Board Agendas page, including year-specific minutes entries and an other-years list. The page years 2014 and 2015 are visible in those previews.
+
+The remaining eight images are recorded by filename and file type, but their contents have not yet been inspected. No meeting dates, agenda titles, or OCR text are claimed for those records. The two reviewed previews also need OCR and human verification before their detailed text can be considered recovered.
+
+## Observed evidence in the archive
+
+The current inventory captures the central evidence groups visible in the shared folder structure:
+
+- vilg-site-scr
+- agendas-minutes
+- board-agenda
+- board-mins
+- planning-board-minutes
+- zoning
+- boards
+
+This is a structured sample, not a complete reconstruction of every screenshot or page. It captures the major folder categories and provides file-level records for one representative archive folder, with review status separating direct observation from pending inspection.
+
+## Why this matters
+
+The inventory deliberately separates what is observed from what is inferred. That matters for recovery because it keeps the audit evidence traceable and reduces the risk of treating folder names or cached metadata as perfect replacements for the original content.

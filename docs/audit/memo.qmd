@@ -1,0 +1,35 @@
+---
+title: "Recovery and Remediation Memo"
+---
+
+## Executive summary
+
+This archive audit focuses on recovering the information architecture and content of a legacy public website from a screenshot archive rather than rebuilding the site outright. The goal is to establish what was present, identify recurring structure and content problems, and recommend a recovery workflow that preserves evidence while preventing the reintroduction of stale or misleading material.
+
+## Findings
+
+1. The site appears to have a conventional public-service structure, with a primary landing page, informational sections, program pages, news, and contact information.
+2. The strongest recoverable content is stable, repeatable text such as navigation labels, program headings, office details, and core service descriptions.
+3. The most fragile content is event metadata, older announcement text, and image-heavy pages where compression or crop artifacts obscure detail.
+4. A future rebuild should preserve useful content but rework outdated navigation and duplicated program categories.
+
+## Site recovery interpretation
+
+The screenshot archive is a useful source for reconstructing the original information architecture, but it is not equivalent to a complete content dump. It provides strong evidence for site structure, navigation patterns, and the presence of repeated page types, while only partially preserving the exact wording of dense or image-heavy content.
+
+## Recommendation
+
+The organization should treat the archive as evidence for recovery and remediation, not as an exact final source text. The recommended workflow is:
+
+- recover structure from the entire archive,
+- select a defensible sample for detailed textual validation,
+- use OCR for first-pass text extraction,
+- manually verify the highest-priority pages,
+- preserve accurate historical content but revise or consolidate outdated or redundant material.
+
+## Priority actions
+
+- Confirm the full site map from screenshots and classify page types.
+- Validate all pages that drive public services, contact details, and program enrollment.
+- Treat news, events, and donation pages as high-risk for OCR drift and stale information.
+- Establish a future content review process to decide what is retained, revised, replaced, or removed.

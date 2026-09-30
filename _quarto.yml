@@ -3,31 +3,30 @@ project:
   output-dir: _site
 
 website:
-  title: "Docs in Motion"
+  title: "Archive Recovery Audit"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: categories.qmd
-        text: Categories
-      - href: about.qmd
-        text: About
-      - href: services.qmd
-        text: Services
-      - text: Articles
-        menu:
-          - docs/articles/article-1.qmd
-          - docs/articles/article-2.qmd
-          - docs/articles/article-3.qmd
+      - href: docs/audit/memo.qmd
+        text: Memo
+      - href: docs/audit/sitemap.qmd
+        text: Sitemap
+      - href: docs/audit/inventory.qmd
+        text: Inventory
+      - href: docs/audit/recovery-workflow.qmd
+        text: Recovery Workflow
   sidebar:
     style: "docked"
     search: true
     contents:
-      - section: "Documentation"
+      - section: "Archive audit"
         contents:
-          - docs/articles/article-1.qmd
-          - docs/articles/article-2.qmd
-          - docs/articles/article-3.qmd
+          - index.qmd
+          - docs/audit/memo.qmd
+          - docs/audit/sitemap.qmd
+          - docs/audit/inventory.qmd
+          - docs/audit/recovery-workflow.qmd
 
 format:
   html:

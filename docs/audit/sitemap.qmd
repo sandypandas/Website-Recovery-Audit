@@ -1,0 +1,38 @@
+---
+title: "Site Map"
+---
+
+## Reconstructed information architecture
+
+The archive exposed in Google Drive is not a direct render of a final website; it is a structured evidence archive. From the visible folder hierarchy, the strongest recoverable structure is a public-facing board and meeting records system with clearly separated administrative record groups.
+
+```{mermaid}
+flowchart TD
+    A[vilg-site-scr] --> B[agendas-minutes]
+    A --> C[boards]
+
+    B --> B1[board-agenda]
+    B --> B2[board-mins]
+    B --> B3[planning-board-minutes]
+    B --> B4[zoning]
+
+    C --> C1[board records]
+    C --> C2[meeting materials]
+    C --> C3[related archive files]
+```
+
+## What this tells us
+
+The observed archive structure suggests a site or document set organized around governance and public meeting records rather than a consumer-facing service site. The folders signal a clear emphasis on:
+
+- meeting agendas,
+- board minutes,
+- planning documents,
+- zoning records,
+- and board-related document archives.
+
+This is the best reconstructable hierarchy from the archive evidence currently available. It is useful for an audit because it reveals the likely content domains the website was built around, even though it does not yet prove the complete final navigation structure of every public page.
+
+## Recovery note
+
+This map should be treated as an archive-derived navigation model rather than a final rebuild blueprint. The archive gives strong evidence for the major record groups, but not every page-level relationship or navigation label can be recovered solely from folder names. That is why the next steps are to validate actual screenshot content and then decide which structure should be preserved versus reorganized in a future site rebuild.

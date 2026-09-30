@@ -1,0 +1,36 @@
+﻿record_id,archive_group,page_title,folder_path,content_type,source_type,recovery_status,observed_structure,notes
+
+A-001,"Project root",vilg-site-scr,"Shared with me / vilg-site-scr","Archive root","Folder hierarchy",Observed,"Top-level archive container","This is the parent archive folder visible in the shared Google Drive evidence."
+
+A-002,"Meeting records",agendas-minutes,"Shared with me / vilg-site-scr / agendas-minutes","Agenda and minutes archive","Folder hierarchy",Observed,"Administrative record group","This folder is clearly dedicated to meeting-related records and is central to the archive architecture."
+
+A-003,"Meeting records",board-agenda,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda","Board agenda documents",Subfolder,Observed,"Sub-collection under agenda archive","The folder name indicates board agenda content associated with formal governance meetings."
+
+A-004,"Meeting records",board-mins,"Shared with me / vilg-site-scr / agendas-minutes / board-mins","Board minutes",Subfolder,Observed,"Sub-collection under agenda archive","The folder name strongly suggests board minutes or governance notes."
+
+A-005,"Meeting records",planning-board-minutes,"Shared with me / vilg-site-scr / agendas-minutes / planning-board-minutes","Planning board minutes",Subfolder,Observed,"Sub-collection under agenda archive","This appears to be a specialized board record group for planning meetings."
+
+A-006,"Meeting records",zoning,"Shared with me / vilg-site-scr / agendas-minutes / zoning","Zoning-related documents",Subfolder,Observed,"Sub-collection under agenda archive","The folder name indicates zoning documents or zoning meeting records."
+
+A-007,"Board materials",boards,"Shared with me / vilg-site-scr / boards","Board-related archive set","Folder hierarchy",Observed,"Separate board materials group","This folder appears to hold broader board documentation outside the agenda-minutes branch."
+
+A-008,"Board agendas","Village Board Agendas (2014)","Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-14.png","Website screenshot (PNG)","Google Drive image file","Visually sampled; text not transcribed","Village Board Agendas heading, table of contents, year-specific minutes entries, other-years list, and site navigation are visible.","Modified 16 Oct 2023. Page year is legible in the preview; detailed text still requires OCR and human verification."
+
+A-009,"Board agendas","Village Board Agendas (2015)","Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-15.png","Website screenshot (PNG)","Google Drive image file","Visually sampled; text not transcribed","Village Board Agendas heading, table of contents, year-specific minutes entries, other-years list, and site navigation are visible.","Modified 16 Oct 2023. Page year is legible in the preview; detailed text still requires OCR and human verification."
+
+A-010,"Board agendas",board-agenda-16.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-16.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-011,"Board agendas",board-agenda-17.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-17.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-012,"Board agendas",board-agenda-18.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-18.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-013,"Board agendas",board-agenda-19.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-19.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-014,"Board agendas",board-agenda-20.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-20.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-015,"Board agendas",board-agenda-21.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-21.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-016,"Board agendas",board-agenda-22.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-22.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+
+A-017,"Board agendas",board-agenda-23.png,"Shared with me / vilg-site-scr / agendas-minutes / board-agenda / board-agenda-23.png","Website screenshot (PNG)","Google Drive image file","Asset observed; content unreviewed","Filename and image type observed in Drive listing; screenshot content not inspected.","Modified 16 Oct 2023."
+

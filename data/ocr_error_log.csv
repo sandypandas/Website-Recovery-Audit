@@ -1,0 +1,4 @@
+﻿page,error_type,issue,severity
+sample-home,word_misread,"Meberships was read as \"Meberships\" instead of \"Memberships\"",minor
+sample-events,case_rendering,"Capitalization changed from proper title case to sentence case",moderate
+sample-events,token_confusion,"\"Food drive\" was split and mis-read on some test outputs",moderate

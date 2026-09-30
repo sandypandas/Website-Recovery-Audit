@@ -1,43 +1,53 @@
 ---
-title: "Docs in Motion"
+title: "Archive Recovery Audit"
 ---
 
 <div class="landing-shell">
   <div class="hero-grid">
     <section class="hero-copy">
-      <h1>Minimalism<br>at its finest.</h1>
-      <a class="cta-link" href="#featured">Shop all</a>
-      <div class="socials" aria-label="Social links">
-        <a href="#">f</a>
-        <a href="#">x</a>
-        <a href="#">in</a>
-      </div>
+      <h1>Recovering a legacy archive.</h1>
+      <p>Audit the site’s structure, test the recovery workflow, and document the evidence needed for a future rebuild.</p>
+      <a class="cta-link" href="docs/audit/memo.qmd">Read the memo</a>
     </section>
 
     <div class="feature-grid" id="featured">
       <article class="feature-card">
-        <img src="images/article-1.svg" alt="Kitchen illustration showing a minimal modern design concept." />
-        <div class="feature-label">Kitchen</div>
+        <img src="images/article-1.svg" alt="Illustration representing archive structure and analysis." />
+        <div class="feature-label">Audit memo</div>
       </article>
 
       <article class="feature-card">
-        <img src="images/article-2.svg" alt="Bathroom illustration showing a minimal modern design concept." />
-        <div class="feature-label">Bathroom</div>
+        <img src="images/article-2.svg" alt="Illustration representing a page map and hierarchy." />
+        <div class="feature-label">Site map</div>
       </article>
 
       <article class="feature-card">
-        <img src="images/article-3.svg" alt="Lighting illustration showing a minimal modern design concept." />
-        <div class="feature-label">Lighting</div>
+        <img src="images/article-3.svg" alt="Illustration representing OCR and content verification." />
+        <div class="feature-label">Recovery</div>
       </article>
     </div>
   </div>
 </div>
 
-## Featured articles
+## Project summary
 
-This landing page introduces a dark, editorial aesthetic for the documentation mini-site. The project still includes the same article set, arranged as a clean minimal direction that feels more like a design showcase than a standard documentation page.
+This project treats a screenshot archive as evidence rather than as a finished archive of final content. The work focuses on reconstruction, verification, and planning so that the future site can be rebuilt accurately without preserving stale or misleading material.
 
-- [Planning documentation that people actually use](docs/articles/article-1.qmd)
-- [Writing concise, readable technical content](docs/articles/article-2.qmd)
-- [Publishing a static documentation site with Quarto](docs/articles/article-3.qmd)
+### Key deliverables
+
+- [Recovery and remediation memo](docs/audit/memo.qmd)
+- [Reconstructed sitemap](docs/audit/sitemap.qmd)
+- [Content inventory](docs/audit/inventory.qmd)
+- [Text recovery workflow](docs/audit/recovery-workflow.qmd)
+
+### Evidence generated
+
+- SQLite inventory database and CSV export
+- sample OCR and verified text files
+- OCR error log and recovery notes
+- sitemap source and rendered PNG
+
+### Why this matters
+
+The archive is useful for understanding the site’s shape and page types, but it is not a replacement for a complete final content source. The archive can support a careful rebuild only if recovery and verification are treated as separate steps from remediation.
 

@@ -59,6 +59,25 @@ p, li {
   color: var(--brand-strong);
 }
 
+.navbar .dropdown-menu,
+.navbar .dropdown-menu.show {
+  background-color: #c7c9ca !important;
+  border: 1px solid rgba(17, 17, 17, 0.15) !important;
+}
+
+.navbar .dropdown-menu a,
+.navbar .dropdown-menu .dropdown-item {
+  color: #33383b !important;
+}
+
+.navbar .dropdown-menu a:hover,
+.navbar .dropdown-menu a:focus,
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
+  background-color: #b5b8ba !important;
+  color: #1a1d1f !important;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:hover {
@@ -161,9 +180,9 @@ p, li {
 }
 
 .landing-shell {
-  min-height: 100vh;
   background: var(--bg);
-  padding: 0 0 2rem;
+  padding: 1rem 2rem 2rem;
+  box-sizing: border-box;
 }
 
 .panel-stack {
@@ -209,6 +228,8 @@ p, li {
   grid-template-columns: 0.9fr 2.1fr;
   gap: 2rem;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hero-copy {
@@ -221,6 +242,11 @@ p, li {
   letter-spacing: -0.06em;
   margin: 0 0 1.5rem;
   max-width: 430px;
+}
+
+.hero-copy p {
+  max-width: 30rem;
+  color: var(--muted);
 }
 
 .cta-link {
@@ -359,22 +385,15 @@ pre, code {
 
 code {
   font-size: 0.95em;
-  color: rgba(255,255,255,0.08);
 }
 
 pre {
   background: transparent;
-  color: rgba(255,255,255,0.08);
   border: 0;
 }
 
-main pre,
-main code,
-#quarto-document-content pre,
-#quarto-document-content code,
-.quarto-title-block code {
-  background: transparent !important;
-  color: rgba(255,255,255,0.06) !important;
+body:has(.landing-shell) main pre {
+  display: none !important;
 }
 
 #quarto-document-content,
@@ -429,4 +448,31 @@ a {
   body {
     font-size: 16px;
   }
+}
+
+.audit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.audit-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.25rem;
+}
+
+.audit-card h3 {
+  margin-top: 0;
+  color: var(--ink);
+}
+
+.audit-card p,
+.audit-card li {
+  color: var(--muted);
+}
+
+.audit-card a {
+  color: var(--brand-strong);
 }

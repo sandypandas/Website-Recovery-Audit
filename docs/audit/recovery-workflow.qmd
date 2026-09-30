@@ -1,0 +1,42 @@
+---
+title: "Text Recovery Workflow"
+---
+
+## Tesseract-based process
+
+The workflow for this project assumes OCR is used as a first-pass recovery tool rather than a final authoritative copy. The process is:
+
+1. capture screenshot images from the archive,
+2. preprocess images for contrast and text clarity,
+3. run Tesseract to recover text,
+4. compare OCR output to the original screenshot,
+5. mark uncertain passages for human verification,
+6. record recurring problems in a log.
+
+## Example Tesseract command
+
+```bash
+tesseract input.png stdout --psm 6
+```
+
+## Why manual verification is still necessary
+
+The archive contains screenshots with reduction, cropping, and visual artifacts that cause frequent problems in OCR output. Common issues include:
+
+- misread words such as “Meberships” instead of “Memberships”,
+- line breaks inserted into titles,
+- weak capitalization in headings,
+- truncation of date or contact details,
+- confusion between service names and event titles.
+
+## Recovery sample
+
+The sample text files in the repository show the difference between raw OCR output and a verified version. This distinction matters because it demonstrates how automated extraction can produce useful drafts without replacing thorough human review.
+
+- Raw OCR sample: [../../data/archive/recovered_text/sample-home-ocr.txt](../../data/archive/recovered_text/sample-home-ocr.txt)
+- Verified sample: [../../data/archive/recovered_text/sample-home-verified.txt](../../data/archive/recovered_text/sample-home-verified.txt)
+- Error log: [../../data/ocr_error_log.csv](../../data/ocr_error_log.csv)
+
+## Recommended standard
+
+For a future rebuild, only pages with a high-confidence OCR result should be treated as production-ready without manual review. Any page containing contact details, dates, donation content, or staff information should receive a human check before being published.
